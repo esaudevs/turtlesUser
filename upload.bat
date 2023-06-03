@@ -6,4 +6,5 @@ set GOOS = linux
 set GOARCH = amd64
 
 go build main.go
-tar.exe -a -cf main.zip main
+del main.zip
+tar.exe -a -cf main.zip main.exe
